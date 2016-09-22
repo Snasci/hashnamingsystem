@@ -19,7 +19,7 @@ Interestingly, this also provides a method of providing intrinsic search and red
 
 House Prices In Western Europe maps to 76f3:2ae4:e7ba:4cb:1215:5252:7e66:aa7b
 
-If I were to send the IPv6 address to Google it would give me back results for that terme, thus reducing the size of the traffic.
+If I were to send the IPv6 address to Google it would give me back results for that term, thus reducing the size of the traffic.
 
 Further, if websites analyze words on their own sites, we can build a symantic picture of the web at the routing level.  This is simply creating an entry for the IPv6 address of the term and mapping all the sites that carry that term to this entry.  This is complex and carries security considerations, however, it does provide a routable semantic view of the web.
 
