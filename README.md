@@ -1,11 +1,11 @@
 # Hash Naming System
 
-This prototype software is an algorithmic replacement for DNS.  Rather than an expensive global DNS infrastructure, this software take an MD5 hash of a term and converts it to an IPv6 address.
+This prototype software is an algorithmic replacement for DNS.  Rather than an expensive global DNS infrastructure, this software take an MD5 hash of a term and converts it to an IPv6 or IPv4 address.
 
 For example:
 
-Google maps to 8b36:e920:7c24:c76e:6719:268e:4920:1d94
-Microsoft maps to 1408:6407:8aec:a1c7:c35b:4beb:33c5:3c34
+Google maps to c822:c1b6:3853:ed27:3b89:687a:c505:f9fa and 197.5.249.250
+Microsoft maps to 5f53:2a3f:c4f1:ea40:3f37:70f:59a7:a53a and 89.167.165.58
 
 How Is This Used In Practice
 
@@ -23,6 +23,12 @@ If I were to send the IPv6 address to Google it would give me back results for t
 
 Further, if websites analyze words on their own sites, we can build a symantic picture of the web at the routing level.  This is simply creating an entry for the IPv6 address of the term and mapping all the sites that carry that term to this entry.  This is complex and carries security considerations, however, it does provide a routable semantic view of the web.
 
+Notes On IPv4
 
+The address space in IPv4 is much smaller and collisions would increase.  As such, probably best for internal networks.
+
+Notes On Loopback Addresses and Non-Routable Addresses
+
+If certain terms produce IP addresses in this region, then a secondary form of generating the address for the term must be used.
 
 
