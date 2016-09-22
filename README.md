@@ -5,6 +5,7 @@ This prototype software is an algorithmic replacement for DNS.  Rather than an e
 For example:
 
 Google maps to c822:c1b6:3853:ed27:3b89:687a:c505:f9fa and 197.5.249.250
+
 Microsoft maps to 5f53:2a3f:c4f1:ea40:3f37:70f:59a7:a53a and 89.167.165.58
 
 How Is This Used In Practice
