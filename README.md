@@ -17,7 +17,7 @@ Symantic Web
 
 Interestingly, this also provides a method of providing intrinsic search and reducing search traffic.  Search terms can be mapped to IPv6 addresses.  For example:
 
-House Prices In Western Europe maps to 76f3:2ae4:e7ba:4cb:1215:5252:7e66:aa7b
+House Prices In Western Europe maps to 6ba9:698d:a6b1:710c:e29a:814d:323c:b310 and 50.60.179.16
 
 If I were to send the IPv6 address to Google it would give me back results for that term, thus reducing the size of the traffic.
 
