@@ -8,6 +8,8 @@ Google maps to c822:c1b6:3853:ed27:3b89:687a:c505:f9fa and 197.5.249.250
 
 Microsoft maps to 5f53:2a3f:c4f1:ea40:3f37:70f:59a7:a53a and 89.167.165.58
 
+
+
 How Is This Used In Practice
 
 For businesses, the trading name of a company and its associated IPv6 hash-based address need to be protected in law as an extension of current trade mark legislation.  Then it is simply a matter of making the IPv6 address routable.  Most likely done by a competent authority such as an internet provider or the company itself.
@@ -15,6 +17,8 @@ For businesses, the trading name of a company and its associated IPv6 hash-based
 In a broader implementation, registration and ownership can be performed by the internet service provider and recorded in the bitcoin blockchain.  This allows addresses to be traded and provides a strong level of protection.
 
 It is possible for URLs to remain the way the are mycompany.com.  Or simply use a brand name for your main website such as Microsoft or Google.  URLs can take the form Microsoft/home.aspx or Google/analytics.
+
+
 
 Symantic Web
 
@@ -30,6 +34,8 @@ What this does not provide is relevancy.  This is a ranking procedure and typica
 
 As such, this provides a much needed search system on the web, without competing against major search engines.
 
+
+
 Notes On IPv4
 
 The address space in IPv4 is much smaller and collisions would increase.  As such, probably best for internal networks.
@@ -38,9 +44,13 @@ Notes On Loopback Addresses and Non-Routable Addresses
 
 If certain terms produce IP addresses in this region, then a secondary form of generating the address for the term must be used.  Another approach is just to use the term 'LOOPBACK:LOCAL' for loopback addresses.
 
+
+
 Separating Search and Machine names
 
 One potential solution is to define a prefix such as 'MachineName:GOOGLE-US-3456789'
+
+
 
 Reverse Lookups
 
